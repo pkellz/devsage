@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", function()
   scene.add(pointLightTop)
 
   THREE.ImageUtils.crossOrigin = '';
-  // IMPORTANT: This next line defines the texture of your coin. I didn't include the Minecraft texture (for copyright reasons) You should replace './devsage.jpg' with the path to your own image.
-  const texture = new THREE.TextureLoader().load( "./devsage.jpg" );
+  // IMPORTANT: This next line defines the texture of your coin. I didn't include the Minecraft texture (for copyright reasons) You should replace the url inside '.load(...)' with the path to your own image.
+  const texture = new THREE.TextureLoader().load( "https://raw.githubusercontent.com/pkellz/devsage/master/ThreeJS/MinecraftBlock/devsage.jpg" );
 
   const material = new THREE.MeshStandardMaterial({
     map: texture,

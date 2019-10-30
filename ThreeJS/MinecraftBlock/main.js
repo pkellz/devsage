@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function()
   pointLightTop.position.set(0,3,2)
   scene.add(pointLightTop)
 
-  // IMPORTANT: This next line defines the texture of your block. I didn't include the Minecraft texture (for copyright reasons) You should replace './devsage.jpg' with the path to your own image.
-  const texture = new THREE.TextureLoader().load( "./devsage.jpg" );
+  // IMPORTANT: This next line defines the texture of your block. I didn't include the Minecraft texture (for copyright reasons) You should replace the url inside of '.load(...)' with the path to your own image.
+  const texture = new THREE.TextureLoader().load( "https://raw.githubusercontent.com/pkellz/devsage/master/ThreeJS/MinecraftBlock/devsage.jpg" );
 
   const material = new THREE.MeshStandardMaterial({
     map: texture,
