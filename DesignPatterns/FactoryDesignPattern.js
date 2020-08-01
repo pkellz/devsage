@@ -22,10 +22,8 @@ function EmployeeFactory()
     {
       case 1:
         return new Developer(name)
-        break
       case 2:
         return new Tester(name)
-        break
     }
   }
 }
