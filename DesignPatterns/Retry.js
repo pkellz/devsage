@@ -1,3 +1,8 @@
+/*
+    Retry Design Pattern -> https://www.youtube.com/watch?v=fYZfFdbr8mc
+    Author: DevSage (Youtube) -> https://www.youtube.com/DevSage
+*/
+
 async function retryOperation()
 {
     let currentTry = 0;
