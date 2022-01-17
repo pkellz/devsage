@@ -1,0 +1,32 @@
+html, body
+{
+    background:#ECE8E0;
+    font-family: Arial, sans-serif;
+    height:100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container
+{
+    text-align: center;
+    width:600px;
+}
+
+#output
+{
+    margin-top:10px;
+    background:lightblue;
+    font-size:20px;
+}
+
+input[type="text"]
+{
+    width:100%;
+    padding:10px;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid #aaa;
+    font-size: 1.25em;
+}
